@@ -47,14 +47,21 @@ void RaiseNumber()
 
 void EvenOdd()
 {
-	int number;
-	std::cout << "Input a number too see if it is Even or Odd";
-
+	int Number;
+	std::cout << "Input a number too see if it is Even or Odd: \n";
+	std::cin >> Number;
+	if (Number % 2 == 0)
+	{
+		std::cout << "The number " << Number << " is even. \n";
+	}
+	else if (Number % 2 != 0)
+	{
+		std::cout << "The number " << Number << " is odd. \n";
+	}	
 }
 
 int main()
 {
-	
 
 
 

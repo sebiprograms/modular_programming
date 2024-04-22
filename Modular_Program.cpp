@@ -125,7 +125,6 @@ void restart()
 
 int main()
 {
-	int run = 0;
 	std::cout << "        Welcome       \n";
 	std::cout << "Enter a number 1-6 to choose a program function: \n";
 	menu();
